@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0.81" Timestamp="6e122527-b390-4485-9343-b0f9e37a609e">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\Scoreboard.cs</Path>
+        <ProjectFullName>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\LabyrinthGame.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>30</Column>
+          <Text>Name does not match the naming convention. Suggested name 'maximumScoreboardRecords'</Text>
+          <Line>8</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\LabyrinthTest.cs</Path>
+        <ProjectFullName>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\LabyrinthGameTests.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>21</Column>
+          <Text>Name does not match the naming convention. Suggested name 'TestInitializeLabyrinthInitialNewGamePlayerPosition3X3'</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>21</Column>
+          <Text>Name does not match the naming convention. Suggested name 'TestInitializeLabyrinthInitialPlayerPosition3X3'</Text>
+          <Line>35</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\Labyrinth.cs</Path>
+        <ProjectFullName>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\LabyrinthGame.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>13</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\GameTests\LabyrinthTest.cs</Path>
+        <ProjectFullName>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\LabyrinthGameTests.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>This using directive is not required</Text>
+          <Line>6</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>This using directive is not required</Text>
+          <Line>5</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>1</Column>
+          <Text>This using directive is not required</Text>
+          <Line>7</Line>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <Path>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\Game\Labyrinth.cs</Path>
+        <ProjectFullName>D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\LabyrinthGame.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>14</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>21</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>25</Column>
+          <Text>Inner type name does not match file name</Text>
+          <Line>15</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>16</Column>
+          <Text>Inner type name does not match file name</Text>
+          <Line>27</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>21</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>26</Column>
+          <Text>Field &lt;/C&gt;playerCurrentPosition&lt;//C&gt; can be made readonly</Text>
+          <Line>22</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>22</Column>
+          <Text>Field &lt;/C&gt;scoreboard&lt;//C&gt; can be made readonly</Text>
+          <Line>24</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>22</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>26</Column>
+          <Text>Field &lt;/C&gt;playerCurrentPosition&lt;//C&gt; can be made readonly</Text>
+          <Line>23</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>22</Column>
+          <Text>Field &lt;/C&gt;scoreboard&lt;//C&gt; can be made readonly</Text>
+          <Line>25</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>19</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>22</Column>
+          <Text>Field &lt;/C&gt;scoreboard&lt;//C&gt; can be made readonly</Text>
+          <Line>23</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>18</Column>
+          <Text>Field &lt;/C&gt;labyrinthMap&lt;//C&gt; can be made readonly</Text>
+          <Line>17</Line>
+        </IgnoredElement>
+        <IgnoredElement>
+          <Column>26</Column>
+          <Text>Field &lt;/C&gt;playerCurrentPosition&lt;//C&gt; can be made readonly</Text>
+          <Line>20</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

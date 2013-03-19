@@ -1,0 +1,9 @@
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\obj\Debug\ResolveAssemblyReference.cache
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGame.exe
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGame.pdb
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGame_Accessor.exe
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGame_Accessor.pdb
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGameTests.dll
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\bin\Debug\LabyrinthGameTests.pdb
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\obj\Debug\LabyrinthGameTests.dll
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGameTests\obj\Debug\LabyrinthGameTests.pdb

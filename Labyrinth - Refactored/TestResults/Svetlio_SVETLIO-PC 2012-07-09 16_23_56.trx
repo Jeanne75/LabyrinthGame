@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4f7139e8-cb36-4bd7-8656-9794042bfebb" name="Svetlio@SVETLIO-PC 2012-07-09 16:23:56" runUser="Svetlio-PC\Svetlio" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0c38ce2e-d144-41c6-92b6-74c9f9895c29">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Svetlio_SVETLIO-PC 2012-07-09 16_23_56">
+      <DeploymentItem filename="D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\LabyrinthGame\bin\Debug\LabyrinthGame.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\LabyrinthGame.exe" pdbFile="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\LabyrinthGame.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-09T16:23:56.8381509+03:00" queuing="2012-07-09T16:24:02.0494490+03:00" start="2012-07-09T16:24:02.1884569+03:00" finish="2012-07-09T16:24:05.3376370+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="69" executed="69" passed="69" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <ResultFiles>
+      <ResultFile path="SVETLIO-PC\data.coverage" />
+    </ResultFiles>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestInitializeLabyrinthMap_CreateGame0x7_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="ed5d8d77-c5e9-1de2-8093-76d5b9840371">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="a6118364-206e-402b-bf3c-4e7c7f9c02fe" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_CreateGame0x7_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_PlayerPositionColumnOutOfRange_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="b7cc83bd-7d8b-0de1-e188-083382990dd7">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="129a17b6-1afa-44ce-8ae6-c1eb5bc58af3" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_PlayerPositionColumnOutOfRange_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveLeftBigLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="966d9dd0-4f82-7bc2-0df0-7ab39e7e8329">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="1fe71b0d-1ef1-4c33-9e65-49f9443fcbec" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveLeftBigLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestScoreRecordConstructor_CreateInvalidRecord_ExpectedExcetion" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="92e921a1-7413-b8fd-1053-474e571c6556">
+      <Execution id="a14615d3-aba7-4e91-a92d-88ef2ea8730d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreRecordConstructor_CreateInvalidRecord_ExpectedExcetion" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveRightBigLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="8528c068-c927-8fcd-3fda-5720146fa10e">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="e8357138-c2e0-45b3-8588-202f75b046e2" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveRightBigLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapObject_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="38af1b83-75c4-e3d1-f2a9-b8a273fc1f22">
+      <Execution id="efc6b58d-5227-482c-afc0-5b01aef59d9f" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapObject_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestIsHightScore_StoredRecordIs2MaxRecords5_5IsNewHighScore" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="721ec0ac-a8d8-43f2-8a8a-bbcc23886663">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="c8b16bf2-927c-4e83-9610-bb9b856328b3" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHightScore_StoredRecordIs2MaxRecords5_5IsNewHighScore" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_CreateGameInvalidColumnsCount_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="064f0193-c1d8-2e8b-b130-79f0caf49c6e">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="c2f760cb-f6e2-46b6-91bc-35ae957af9f5" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_CreateGameInvalidColumnsCount_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Columns" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="3992ca63-7130-c847-b7ae-3b5960738672">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="f913b13c-0e68-4bb7-8e93-e53494a26a4d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Columns" />
+    </UnitTest>
+    <UnitTest name="TestCompareTo_CompareNullObject_ExpectedExcetion" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="d2c408e5-b397-bc11-f07c-053ca0d03e3a">
+      <Execution id="f28549b1-a6c7-4e46-a88f-e833af5adfa3" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareTo_CompareNullObject_ExpectedExcetion" />
+    </UnitTest>
+    <UnitTest name="TestCompareTo_Compare10to9_FirstIsHigher" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="602cdad9-a0a6-ef94-4303-f62a00bdf1df">
+      <Execution id="d30e7fc1-ae00-4881-ac5d-fe7d152dc85e" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareTo_Compare10to9_FirstIsHigher" />
+    </UnitTest>
+    <UnitTest name="TestPrintLabyrinth_CreateGame7x7_DisplayLabyrinthMap" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="5f1ada45-18a8-d38f-7cb1-bf4f0651b576">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="125f9ad6-86d6-4d1a-8bd1-6e6f49dfa168" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPrintLabyrinth_CreateGame7x7_DisplayLabyrinthMap" />
+    </UnitTest>
+    <UnitTest name="TestPrintScoreboard_Store1Record_1LinePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="e0db3463-627c-8ea7-e859-145dd1cf9ba0">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="f3a403c3-4898-4d68-9537-e832acfb9c4b" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPrintScoreboard_Store1Record_1LinePrinted" />
+    </UnitTest>
+    <UnitTest name="TestScoreboardConstructor_InvalidCound_ThrowException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="baf3de5e-87bd-fb43-3072-3eb4c32230b2">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="bca1526a-cb96-4f8b-af07-35bfa818e211" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreboardConstructor_InvalidCound_ThrowException" />
+    </UnitTest>
+    <UnitTest name="TestGetLowestScore_InvalidListPassed_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="70f41788-cb88-e265-0243-3d7ee945f00f">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="ddd04169-3644-4b00-af9d-0f30de263636" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetLowestScore_InvalidListPassed_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveLeftToBlockedCell_InvalidMoveMEssagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="e6ac9817-db14-9457-ce43-eb9adaf9a694">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="a2d2421c-6eac-4299-8d17-979524b2c430" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveLeftToBlockedCell_InvalidMoveMEssagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveUpSmallLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="3838e69d-00fd-0ea4-fd73-6bfd1af3afea">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="c8cf92dc-bec6-40a0-8792-5cce4b22db62" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveUpSmallLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestScoreboardConstructor_SetMaximumRecords5_ScoreRecordsCountIs5" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="ff5c0ab6-c317-decd-6cbf-441a801dab6f">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="8ec5d9b9-9f12-40c4-a8c5-d5055439a208" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScoreboardConstructor_SetMaximumRecords5_ScoreRecordsCountIs5" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtLeftBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="46104fa5-2c46-cc7c-6a2e-bd156e922eb2">
+      <Execution id="4fdf8b4b-a0cd-4044-b225-cb0a6d9b7574" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtLeftBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestPlay_SolveTheGameOneMove_ScoreRecordedScoreboeadPrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="ddf84eeb-6e95-7732-7ac8-25baf1256761">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="76702906-bd91-405e-9fe8-880a016d9ccc" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_SolveTheGameOneMove_ScoreRecordedScoreboeadPrinted" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtLeftBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="b302e319-930b-d780-f9c5-e92823bcd7b4">
+      <Execution id="b5b5af12-cfa4-425a-ae19-af44aea3e8a9" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtLeftBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveRightSmallLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="1e67ba9b-2562-4cf1-1e55-50e120511ade">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="c2688732-d42c-4cc7-b922-267ee2459d24" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveRightSmallLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_PlayerPositionRowInvalid_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="8e3f5a43-bfe8-046c-4082-39ae6c4c9a1e">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="3b252bdc-198e-4c0a-8b91-f943fde3f996" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_PlayerPositionRowInvalid_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMapInitial_CreateGame7x7_LabyrinthIsSolvable" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="f8fa6a08-ce3d-ce5f-703b-e05dd9cc971a">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="77703bdb-bcf3-4c07-89ee-72f7b928f405" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMapInitial_CreateGame7x7_LabyrinthIsSolvable" />
+    </UnitTest>
+    <UnitTest name="TestCompareTo_CompareWrongObject_ExpectedExcetion" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="49468e04-4e1f-fa29-efc0-2ae57ca03016">
+      <Execution id="5ef2ca92-d04d-4573-9ae4-84a39b5fb6fd" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareTo_CompareWrongObject_ExpectedExcetion" />
+    </UnitTest>
+    <UnitTest name="TestIsLabyrinthSolvable_LabitynthWithManyExits_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="90e9871f-9d88-a960-bbfa-8030c3138bc6">
+      <Execution id="65f7fd67-cc53-4743-a439-95e5e6d891ac" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsLabyrinthSolvable_LabitynthWithManyExits_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Rows" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="1b5e868f-3fea-98ce-3e7a-e41f41680cf4">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="d36fbb9e-39a7-4ce6-b7a6-985fc681e5c5" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Rows" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionOutRange_ReturnsFalse" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="ab9469e7-e138-e0e3-4eaf-6e2e5c2ae4e7">
+      <Execution id="adf6da61-4d32-4bf2-86c9-8ee684d51ece" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionOutRange_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="TestAddScore_3Record_NumberOfStoredREcordsIs3" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="c23de7cf-f106-1f98-a5a7-8301c63e027b">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="b8499a1a-0b8c-406e-bede-eaf74f072d7f" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddScore_3Record_NumberOfStoredREcordsIs3" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveUpToBlockedCell_InvalidMoveMEssagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="22e6bd7c-3b55-4448-1199-9cac5a3b0180">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="866900f7-484b-4b24-9764-e0c5188e767d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveUpToBlockedCell_InvalidMoveMEssagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestIsLabyrinthSolvable_LabitynthWithOneExit_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="913d29b6-05df-d113-ab41-2d9218eac454">
+      <Execution id="cdd44276-9b89-4dbf-a45e-039cd7941e47" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsLabyrinthSolvable_LabitynthWithOneExit_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestGetResourceValue_ReadValidResource_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="eccffd02-9604-343d-9995-6c981b22e840">
+      <Execution id="b3cde1b6-e124-44cd-9729-ccf8bd9e3540" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameResourcesCollectionTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetResourceValue_ReadValidResource_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestCompareTo_Compare10to9_SecondIsHigher" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="5c706ee3-0f90-4e95-151d-c3fe84b27731">
+      <Execution id="f74ce6c0-5acb-4aa1-a787-aadadb14f16c" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareTo_Compare10to9_SecondIsHigher" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtBottomBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="d95cc6e9-2b09-0d04-e7ba-8c61df679392">
+      <Execution id="b1e1ecff-486b-4488-a051-2857ff99141a" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtBottomBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapSize_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="fead4f5b-fc2a-7f9e-fcf8-dbb28f04f839">
+      <Execution id="96e01da7-95e6-44ac-be29-376c7b4a1c14" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapSize_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestIsLabyrinthSolvable_LabitynthIsNotSolvable_ReturnsFalse" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="00bd6a54-0c67-50ad-3aa8-0ca50676d62e">
+      <Execution id="e9176b45-31cc-4d0e-8a62-64518ff3b9b1" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsLabyrinthSolvable_LabitynthIsNotSolvable_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtTopBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="41052ae3-bffd-1771-c8af-1d3cf4791f6d">
+      <Execution id="4eff6587-a152-4ddb-92ec-4ade343210ff" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtTopBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="CopyToTest" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="bff97ae2-eee3-ba3f-ec4d-63d8822cb76d">
+      <Execution id="93c3eed6-c5d8-460f-952c-0ce3c3aa00e3" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.PlayerPositionTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CopyToTest" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtRightBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="eb63cee3-8d56-4837-8866-0932734f8d54">
+      <Execution id="2df26cf8-2bd1-4ec4-9085-7293dca3bf2d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtRightBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestMain_StartNewGame_WelcomeMessagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="c97585c0-8f71-f85d-3b53-0549e1f574eb">
+      <Execution id="fe82c5f5-5087-4357-b8d9-e95cdaf45843" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.GameTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMain_StartNewGame_WelcomeMessagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtBottomBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="2b2dfcb2-51e3-58fb-dca8-89ce5a6eaef6">
+      <Execution id="6e956886-4947-4605-bfd4-7e6cc1dd9c3c" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtBottomBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_PlayerPositionRowOutOfRange_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="1a026f35-fc1c-7df8-925b-44c2c1828454">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="51911517-032c-4906-9216-a1a44373c6ef" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_PlayerPositionRowOutOfRange_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestCheckPlayerPositionValidityInLabyrinthMap_InvalidPlayerPositionObject_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="5a2d4e63-b2f8-1e5d-0e55-70225364168d">
+      <Execution id="d5c19d09-4790-48db-9526-4931279ff441" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheckPlayerPositionValidityInLabyrinthMap_InvalidPlayerPositionObject_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestPrintScoreboard_EmptyList_EmptyScoreboardPrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="954a9507-71f0-1157-5fe6-92b68099bc6a">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="f092c037-a33f-4c29-8725-74c843344cd9" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPrintScoreboard_EmptyList_EmptyScoreboardPrinted" />
+    </UnitTest>
+    <UnitTest name="TestAddScore_1Record_NumberOfStoredREcordsIs1" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="c9b26c2e-297c-e8a8-a0e5-1696f280362f">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="04e72bf0-9ad9-4159-af5f-668bd148139b" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddScore_1Record_NumberOfStoredREcordsIs1" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveUpBigLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="cae6fde2-188b-3999-9c92-fb92695dfff5">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="756b1178-672a-4820-92a4-3dfbf84ae9d0" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveUpBigLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestGetResourceValue_ReadValidResource_ResourceValueReturned" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="5be0be29-c1eb-c1b7-0e66-de3c28db121d">
+      <Execution id="89ad1830-f68c-462f-9996-902d686452e1" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameResourcesCollectionTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGetResourceValue_ReadValidResource_ResourceValueReturned" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveDownToBlockedCell_InvalidMoveMEssagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="45b63241-e670-5726-7da5-4fb968c126f9">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="bde9bccb-f0c4-48bc-995e-3ae1a0874c99" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveDownToBlockedCell_InvalidMoveMEssagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestCheckPlayerPositionValidityInLabyrinthMap_PlayerPositionOutOfRange_ThrownException" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="a9d92305-d679-5d67-6ce0-01309c8ee541">
+      <Execution id="80119ff5-e450-401b-80c7-8f533fbc150a" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCheckPlayerPositionValidityInLabyrinthMap_PlayerPositionOutOfRange_ThrownException" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveLeftSmallLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="6aad3772-bac8-73c5-bfcf-1ee6dbdf9735">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="4b1e8133-341c-4459-bbee-08a92c90a576" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveLeftSmallLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestAddScore_StoreRecords10and5and15_LowestRecordIs15" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="db909cf8-1248-5bd3-9f5e-220316039a9a">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="67b8e354-abb8-4693-b33a-34334802177e" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddScore_StoreRecords10and5and15_LowestRecordIs15" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtRightBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="65ee67f2-dd58-4060-142c-c0be749d9b16">
+      <Execution id="26cea55c-c1ec-4942-9940-18a336a0b9fc" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtRightBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_CreateGameInvalidRowsCount_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="0b667cbd-7239-05d6-1b37-50841bc3cd9f">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="9eb3c2fa-444d-48df-83ec-aaadd8c61a8d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_CreateGameInvalidRowsCount_ArgumnetExceptionThrown" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtTopBorder_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="50512e4a-ed0e-d15e-0591-0c76b418b206">
+      <Execution id="cd514b0c-ad51-4d56-99e9-2672b07016a4" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtTopBorder_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestPlay_SolveTheGameFiveMoves_ScoreRecordedScoreboeadPrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="d1808c95-76b5-27c8-3321-e375fedeaaa9">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="bc1fec3a-1416-4132-a4a7-35a9a64b42de" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_SolveTheGameFiveMoves_ScoreRecordedScoreboeadPrinted" />
+    </UnitTest>
+    <UnitTest name="TestIsHightScore_StoredRecordIs10MaxRecords1_15IsNotNewHighScore" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="41c5269a-914a-486a-861a-7b2ef5cbc794">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="8ee8d613-47d5-499e-905a-4d480dbe2d74" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHightScore_StoredRecordIs10MaxRecords1_15IsNotNewHighScore" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveRightToBlockedCell_InvalidMoveMEssagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="8f4ee49a-65f2-5f91-2221-6d2060b3ff56">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="90eb1873-5a38-4919-bfd5-e472a557ea1e" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveRightToBlockedCell_InvalidMoveMEssagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestCompareTo_Compare9to10_AreEqual" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="6715a518-e19f-1202-bfcf-9b3ed2c7764c">
+      <Execution id="f23f26f7-dc1b-4a12-b25b-88f3b5dc4741" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreRecordTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCompareTo_Compare9to10_AreEqual" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionInRange_ReturnsTrue" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="713c0b70-0cfd-93d0-3ea7-5f2214f3234c">
+      <Execution id="18282885-23a3-43a9-8167-c438e7037e78" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionInLabyrinthRange_PlayerPositionInRange_ReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveDownBigLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="4c9dc7f2-a279-06b2-af66-246e213a7d9e">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="a2480eda-e7bc-4fa8-8ea4-7afb9ef685d8" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveDownBigLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestPlay_EnterShowScoreboadCommand_MessageScoreBoardIsEmpty" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="dace1836-b1d4-fe0f-9298-ebe2c84c7f98">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="5eb2abed-a947-422a-a687-32a80c2fb46e" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_EnterShowScoreboadCommand_MessageScoreBoardIsEmpty" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMapInitial_CreateGame7x7_PlayerPositionIsAt3x3" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="7b13643f-7b3e-fa2b-b615-a889ea0f11c0">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="3d5bc486-70e2-401f-ad20-c27c777fda8f" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMapInitial_CreateGame7x7_PlayerPositionIsAt3x3" />
+    </UnitTest>
+    <UnitTest name="TestIsHightScore_StoredRecordIs20MaxRecords1_15IsNewHighScore" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="9fa44a34-8ea2-08ba-581a-954033668b64">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="28c333ec-c7bc-4b88-8e7f-f3e5e6b3ea6d" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsHightScore_StoredRecordIs20MaxRecords1_15IsNewHighScore" />
+    </UnitTest>
+    <UnitTest name="TestAddScore_Store3Rrecords_RecordsSortedAscending" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="7499c3f7-c48f-22d3-cca5-f3e3b40a8316">
+      <Execution id="9a626496-de83-4c90-bca6-e36e611f86c0" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.ScoreboardTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddScore_Store3Rrecords_RecordsSortedAscending" />
+    </UnitTest>
+    <UnitTest name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionNotAtBorder_ReturnsFalse" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="76066b81-f82d-1d12-397c-496e6f1d8345">
+      <Execution id="1b04a8f7-88a0-43a9-9855-85deba183be2" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.UtilitiesTests.GameUtilitiesTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionNotAtBorder_ReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="TestPlay_EnterInvalidCommand_InvalidMoveMessagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="f1ec6272-3070-b419-512b-a1e4a8fe4e2d">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="21630487-4dae-49f3-a36b-fafed8054172" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_EnterInvalidCommand_InvalidMoveMessagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestPlay_MoveDownSmallLetter_PayerPositionMoved" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="6e039a8b-4981-3cf9-2aa0-81d781c42dcc">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="421c60e4-2095-471e-ad84-c3e073b916f4" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_MoveDownSmallLetter_PayerPositionMoved" />
+    </UnitTest>
+    <UnitTest name="TestPlay_EnterExitCommand_ExitMessagePrinted" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="214b1927-d52b-e8ac-841d-c1e6bd4ae076">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="da68029c-3446-4f9b-87fa-aba0d6383ebf" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlay_EnterExitCommand_ExitMessagePrinted" />
+    </UnitTest>
+    <UnitTest name="TestInitializeLabyrinthMap_PlayerPositionColumnInvalid_ArgumnetExceptionThrown" storage="d:\work\courses\hq code\homework\07 - final project - labyrinth\project\labyrinth - refactored\labyrinthgametests\bin\debug\labyrinthgametests.dll" id="4333c246-846f-87ec-8f79-1aea6138bf74">
+      <DeploymentItems>
+        <DeploymentItem filename="LabyrinthGame.exe" />
+      </DeploymentItems>
+      <Execution id="314e83b2-373e-45f6-bdf6-39c5221e93b2" />
+      <TestMethod codeBase="D:/Work/Courses/HQ Code/Homework/07 - Final Project - Labyrinth/Project/Labyrinth - Refactored/LabyrinthGameTests/bin/Debug/LabyrinthGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LabyrinthGameTests.GameTests.LabyrinthTest, LabyrinthGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInitializeLabyrinthMap_PlayerPositionColumnInvalid_ArgumnetExceptionThrown" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00bd6a54-0c67-50ad-3aa8-0ca50676d62e" executionId="e9176b45-31cc-4d0e-8a62-64518ff3b9b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="064f0193-c1d8-2e8b-b130-79f0caf49c6e" executionId="c2f760cb-f6e2-46b6-91bc-35ae957af9f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b667cbd-7239-05d6-1b37-50841bc3cd9f" executionId="9eb3c2fa-444d-48df-83ec-aaadd8c61a8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a026f35-fc1c-7df8-925b-44c2c1828454" executionId="51911517-032c-4906-9216-a1a44373c6ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b5e868f-3fea-98ce-3e7a-e41f41680cf4" executionId="d36fbb9e-39a7-4ce6-b7a6-985fc681e5c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e67ba9b-2562-4cf1-1e55-50e120511ade" executionId="c2688732-d42c-4cc7-b922-267ee2459d24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="214b1927-d52b-e8ac-841d-c1e6bd4ae076" executionId="da68029c-3446-4f9b-87fa-aba0d6383ebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22e6bd7c-3b55-4448-1199-9cac5a3b0180" executionId="866900f7-484b-4b24-9764-e0c5188e767d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b2dfcb2-51e3-58fb-dca8-89ce5a6eaef6" executionId="6e956886-4947-4605-bfd4-7e6cc1dd9c3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3838e69d-00fd-0ea4-fd73-6bfd1af3afea" executionId="c8cf92dc-bec6-40a0-8792-5cce4b22db62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38af1b83-75c4-e3d1-f2a9-b8a273fc1f22" executionId="efc6b58d-5227-482c-afc0-5b01aef59d9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3992ca63-7130-c847-b7ae-3b5960738672" executionId="f913b13c-0e68-4bb7-8e93-e53494a26a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41052ae3-bffd-1771-c8af-1d3cf4791f6d" executionId="4eff6587-a152-4ddb-92ec-4ade343210ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41c5269a-914a-486a-861a-7b2ef5cbc794" executionId="8ee8d613-47d5-499e-905a-4d480dbe2d74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4333c246-846f-87ec-8f79-1aea6138bf74" executionId="314e83b2-373e-45f6-bdf6-39c5221e93b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45b63241-e670-5726-7da5-4fb968c126f9" executionId="bde9bccb-f0c4-48bc-995e-3ae1a0874c99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46104fa5-2c46-cc7c-6a2e-bd156e922eb2" executionId="4fdf8b4b-a0cd-4044-b225-cb0a6d9b7574" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49468e04-4e1f-fa29-efc0-2ae57ca03016" executionId="5ef2ca92-d04d-4573-9ae4-84a39b5fb6fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c9dc7f2-a279-06b2-af66-246e213a7d9e" executionId="a2480eda-e7bc-4fa8-8ea4-7afb9ef685d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50512e4a-ed0e-d15e-0591-0c76b418b206" executionId="cd514b0c-ad51-4d56-99e9-2672b07016a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a2d4e63-b2f8-1e5d-0e55-70225364168d" executionId="d5c19d09-4790-48db-9526-4931279ff441" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5be0be29-c1eb-c1b7-0e66-de3c28db121d" executionId="89ad1830-f68c-462f-9996-902d686452e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c706ee3-0f90-4e95-151d-c3fe84b27731" executionId="f74ce6c0-5acb-4aa1-a787-aadadb14f16c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f1ada45-18a8-d38f-7cb1-bf4f0651b576" executionId="125f9ad6-86d6-4d1a-8bd1-6e6f49dfa168" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="602cdad9-a0a6-ef94-4303-f62a00bdf1df" executionId="d30e7fc1-ae00-4881-ac5d-fe7d152dc85e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65ee67f2-dd58-4060-142c-c0be749d9b16" executionId="26cea55c-c1ec-4942-9940-18a336a0b9fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6715a518-e19f-1202-bfcf-9b3ed2c7764c" executionId="f23f26f7-dc1b-4a12-b25b-88f3b5dc4741" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6aad3772-bac8-73c5-bfcf-1ee6dbdf9735" executionId="4b1e8133-341c-4459-bbee-08a92c90a576" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6e039a8b-4981-3cf9-2aa0-81d781c42dcc" executionId="421c60e4-2095-471e-ad84-c3e073b916f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70f41788-cb88-e265-0243-3d7ee945f00f" executionId="ddd04169-3644-4b00-af9d-0f30de263636" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="713c0b70-0cfd-93d0-3ea7-5f2214f3234c" executionId="18282885-23a3-43a9-8167-c438e7037e78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="721ec0ac-a8d8-43f2-8a8a-bbcc23886663" executionId="c8b16bf2-927c-4e83-9610-bb9b856328b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7499c3f7-c48f-22d3-cca5-f3e3b40a8316" executionId="9a626496-de83-4c90-bca6-e36e611f86c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="76066b81-f82d-1d12-397c-496e6f1d8345" executionId="1b04a8f7-88a0-43a9-9855-85deba183be2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b13643f-7b3e-fa2b-b615-a889ea0f11c0" executionId="3d5bc486-70e2-401f-ad20-c27c777fda8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8528c068-c927-8fcd-3fda-5720146fa10e" executionId="e8357138-c2e0-45b3-8588-202f75b046e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e3f5a43-bfe8-046c-4082-39ae6c4c9a1e" executionId="3b252bdc-198e-4c0a-8b91-f943fde3f996" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f4ee49a-65f2-5f91-2221-6d2060b3ff56" executionId="90eb1873-5a38-4919-bfd5-e472a557ea1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90e9871f-9d88-a960-bbfa-8030c3138bc6" executionId="65f7fd67-cc53-4743-a439-95e5e6d891ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="913d29b6-05df-d113-ab41-2d9218eac454" executionId="cdd44276-9b89-4dbf-a45e-039cd7941e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92e921a1-7413-b8fd-1053-474e571c6556" executionId="a14615d3-aba7-4e91-a92d-88ef2ea8730d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="954a9507-71f0-1157-5fe6-92b68099bc6a" executionId="f092c037-a33f-4c29-8725-74c843344cd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="966d9dd0-4f82-7bc2-0df0-7ab39e7e8329" executionId="1fe71b0d-1ef1-4c33-9e65-49f9443fcbec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fa44a34-8ea2-08ba-581a-954033668b64" executionId="28c333ec-c7bc-4b88-8e7f-f3e5e6b3ea6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9d92305-d679-5d67-6ce0-01309c8ee541" executionId="80119ff5-e450-401b-80c7-8f533fbc150a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab9469e7-e138-e0e3-4eaf-6e2e5c2ae4e7" executionId="adf6da61-4d32-4bf2-86c9-8ee684d51ece" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b302e319-930b-d780-f9c5-e92823bcd7b4" executionId="b5b5af12-cfa4-425a-ae19-af44aea3e8a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7cc83bd-7d8b-0de1-e188-083382990dd7" executionId="129a17b6-1afa-44ce-8ae6-c1eb5bc58af3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baf3de5e-87bd-fb43-3072-3eb4c32230b2" executionId="bca1526a-cb96-4f8b-af07-35bfa818e211" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bff97ae2-eee3-ba3f-ec4d-63d8822cb76d" executionId="93c3eed6-c5d8-460f-952c-0ce3c3aa00e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c23de7cf-f106-1f98-a5a7-8301c63e027b" executionId="b8499a1a-0b8c-406e-bede-eaf74f072d7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c97585c0-8f71-f85d-3b53-0549e1f574eb" executionId="fe82c5f5-5087-4357-b8d9-e95cdaf45843" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9b26c2e-297c-e8a8-a0e5-1696f280362f" executionId="04e72bf0-9ad9-4159-af5f-668bd148139b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cae6fde2-188b-3999-9c92-fb92695dfff5" executionId="756b1178-672a-4820-92a4-3dfbf84ae9d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1808c95-76b5-27c8-3321-e375fedeaaa9" executionId="bc1fec3a-1416-4132-a4a7-35a9a64b42de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2c408e5-b397-bc11-f07c-053ca0d03e3a" executionId="f28549b1-a6c7-4e46-a88f-e833af5adfa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d95cc6e9-2b09-0d04-e7ba-8c61df679392" executionId="b1e1ecff-486b-4488-a051-2857ff99141a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dace1836-b1d4-fe0f-9298-ebe2c84c7f98" executionId="5eb2abed-a947-422a-a687-32a80c2fb46e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db909cf8-1248-5bd3-9f5e-220316039a9a" executionId="67b8e354-abb8-4693-b33a-34334802177e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ddf84eeb-6e95-7732-7ac8-25baf1256761" executionId="76702906-bd91-405e-9fe8-880a016d9ccc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0db3463-627c-8ea7-e859-145dd1cf9ba0" executionId="f3a403c3-4898-4d68-9537-e832acfb9c4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6ac9817-db14-9457-ce43-eb9adaf9a694" executionId="a2d2421c-6eac-4299-8d17-979524b2c430" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb63cee3-8d56-4837-8866-0932734f8d54" executionId="2df26cf8-2bd1-4ec4-9085-7293dca3bf2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eccffd02-9604-343d-9995-6c981b22e840" executionId="b3cde1b6-e124-44cd-9729-ccf8bd9e3540" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed5d8d77-c5e9-1de2-8093-76d5b9840371" executionId="a6118364-206e-402b-bf3c-4e7c7f9c02fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1ec6272-3070-b419-512b-a1e4a8fe4e2d" executionId="21630487-4dae-49f3-a36b-fafed8054172" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8fa6a08-ce3d-ce5f-703b-e05dd9cc971a" executionId="77703bdb-bcf3-4c07-89ee-72f7b928f405" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fead4f5b-fc2a-7f9e-fcf8-dbb28f04f839" executionId="96e01da7-95e6-44ac-be29-376c7b4a1c14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff5c0ab6-c317-decd-6cbf-441a801dab6f" executionId="8ec5d9b9-9f12-40c4-a8c5-d5055439a208" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e9176b45-31cc-4d0e-8a62-64518ff3b9b1" testId="00bd6a54-0c67-50ad-3aa8-0ca50676d62e" testName="TestIsLabyrinthSolvable_LabitynthIsNotSolvable_ReturnsFalse" computerName="SVETLIO-PC" duration="00:00:00.0238411" startTime="2012-07-09T16:24:02.9184987+03:00" endTime="2012-07-09T16:24:03.1735133+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9176b45-31cc-4d0e-8a62-64518ff3b9b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2f760cb-f6e2-46b6-91bc-35ae957af9f5" testId="064f0193-c1d8-2e8b-b130-79f0caf49c6e" testName="TestInitializeLabyrinthMap_CreateGameInvalidColumnsCount_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0117836" startTime="2012-07-09T16:24:03.1755134+03:00" endTime="2012-07-09T16:24:03.1925144+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2f760cb-f6e2-46b6-91bc-35ae957af9f5">
+    </UnitTestResult>
+    <UnitTestResult executionId="9eb3c2fa-444d-48df-83ec-aaadd8c61a8d" testId="0b667cbd-7239-05d6-1b37-50841bc3cd9f" testName="TestInitializeLabyrinthMap_CreateGameInvalidRowsCount_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0013575" startTime="2012-07-09T16:24:03.1955145+03:00" endTime="2012-07-09T16:24:03.2015149+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9eb3c2fa-444d-48df-83ec-aaadd8c61a8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="51911517-032c-4906-9216-a1a44373c6ef" testId="1a026f35-fc1c-7df8-925b-44c2c1828454" testName="TestInitializeLabyrinthMap_PlayerPositionRowOutOfRange_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0016206" startTime="2012-07-09T16:24:03.2035150+03:00" endTime="2012-07-09T16:24:03.2085153+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51911517-032c-4906-9216-a1a44373c6ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="d36fbb9e-39a7-4ce6-b7a6-985fc681e5c5" testId="1b5e868f-3fea-98ce-3e7a-e41f41680cf4" testName="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Rows" computerName="SVETLIO-PC" duration="00:00:00.0226576" startTime="2012-07-09T16:24:03.2115154+03:00" endTime="2012-07-09T16:24:03.2385170+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d36fbb9e-39a7-4ce6-b7a6-985fc681e5c5">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - X X - X X 
+X X - X X - - 
+X X - X X X - 
+- - - * X - X 
+- X - X X - - 
+- - X - X X X 
+- X - - X - X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2688732-d42c-4cc7-b922-267ee2459d24" testId="1e67ba9b-2562-4cf1-1e55-50e120511ade" testName="TestPlay_MoveRightSmallLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0152905" startTime="2012-07-09T16:24:03.2405171+03:00" endTime="2012-07-09T16:24:03.2585181+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2688732-d42c-4cc7-b922-267ee2459d24">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - X X - X X 
+X X - X X - - 
+X X - X X X - 
+- - - * X - X 
+- X - X X - - 
+- - X - X X X 
+- X - - X - X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da68029c-3446-4f9b-87fa-aba0d6383ebf" testId="214b1927-d52b-e8ac-841d-c1e6bd4ae076" testName="TestPlay_EnterExitCommand_ExitMessagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0004503" startTime="2012-07-09T16:24:03.2605182+03:00" endTime="2012-07-09T16:24:03.2635184+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da68029c-3446-4f9b-87fa-aba0d6383ebf">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X - - X X - 
+- X X X - - - 
+- - X X - X - 
+X X - * - X - 
+- X X X X - - 
+- X - X - - - 
+X - - - X X -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="866900f7-484b-4b24-9764-e0c5188e767d" testId="22e6bd7c-3b55-4448-1199-9cac5a3b0180" testName="TestPlay_MoveUpToBlockedCell_InvalidMoveMEssagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0012848" startTime="2012-07-09T16:24:03.2655185+03:00" endTime="2012-07-09T16:24:03.2705188+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="866900f7-484b-4b24-9764-e0c5188e767d">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - X - 
+- X - X X - - 
+- - - X X X - 
+X X X * - X - 
+X X X X - X X 
+X X - X - X X 
+X - X - - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6e956886-4947-4605-bfd4-7e6cc1dd9c3c" testId="2b2dfcb2-51e3-58fb-dca8-89ce5a6eaef6" testName="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtBottomBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002438" startTime="2012-07-09T16:24:03.2715189+03:00" endTime="2012-07-09T16:24:03.2745190+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e956886-4947-4605-bfd4-7e6cc1dd9c3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8cf92dc-bec6-40a0-8792-5cce4b22db62" testId="3838e69d-00fd-0ea4-fd73-6bfd1af3afea" testName="TestPlay_MoveUpSmallLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0005547" startTime="2012-07-09T16:24:03.2765192+03:00" endTime="2012-07-09T16:24:03.2805194+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8cf92dc-bec6-40a0-8792-5cce4b22db62">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - X - 
+- X - X X - - 
+- - - X X X - 
+X X X * - X - 
+X X X X - X X 
+X X - X - X X 
+X - X - - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efc6b58d-5227-482c-afc0-5b01aef59d9f" testId="38af1b83-75c4-e3d1-f2a9-b8a273fc1f22" testName="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapObject_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0017100" startTime="2012-07-09T16:24:03.2825195+03:00" endTime="2012-07-09T16:24:03.2865197+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efc6b58d-5227-482c-afc0-5b01aef59d9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f913b13c-0e68-4bb7-8e93-e53494a26a4d" testId="3992ca63-7130-c847-b7ae-3b5960738672" testName="TestInitializeLabyrinthMap_CreateGame7x7_LabyrinthSizeIs7Columns" computerName="SVETLIO-PC" duration="00:00:00.0004225" startTime="2012-07-09T16:24:03.2885198+03:00" endTime="2012-07-09T16:24:03.2915200+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f913b13c-0e68-4bb7-8e93-e53494a26a4d">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X X X X X - - 
+X X X X X X - 
+X X X - - X - 
+X - - * - X - 
+X X - X - - - 
+- - - - X - X 
+- X X X - - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4eff6587-a152-4ddb-92ec-4ade343210ff" testId="41052ae3-bffd-1771-c8af-1d3cf4791f6d" testName="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtTopBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002904" startTime="2012-07-09T16:24:03.2935201+03:00" endTime="2012-07-09T16:24:03.2965203+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4eff6587-a152-4ddb-92ec-4ade343210ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ee8d613-47d5-499e-905a-4d480dbe2d74" testId="41c5269a-914a-486a-861a-7b2ef5cbc794" testName="TestIsHightScore_StoredRecordIs10MaxRecords1_15IsNotNewHighScore" computerName="SVETLIO-PC" duration="00:00:00.0038990" startTime="2012-07-09T16:24:03.2985204+03:00" endTime="2012-07-09T16:24:03.3065209+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ee8d613-47d5-499e-905a-4d480dbe2d74">
+    </UnitTestResult>
+    <UnitTestResult executionId="314e83b2-373e-45f6-bdf6-39c5221e93b2" testId="4333c246-846f-87ec-8f79-1aea6138bf74" testName="TestInitializeLabyrinthMap_PlayerPositionColumnInvalid_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0024328" startTime="2012-07-09T16:24:03.3085210+03:00" endTime="2012-07-09T16:24:03.3145213+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="314e83b2-373e-45f6-bdf6-39c5221e93b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="bde9bccb-f0c4-48bc-995e-3ae1a0874c99" testId="45b63241-e670-5726-7da5-4fb968c126f9" testName="TestPlay_MoveDownToBlockedCell_InvalidMoveMEssagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0009833" startTime="2012-07-09T16:24:03.3175215+03:00" endTime="2012-07-09T16:24:03.3215217+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bde9bccb-f0c4-48bc-995e-3ae1a0874c99">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - - X - - - 
+X X X - X X X 
+- X - X - X X 
+- X - * X - - 
+X - X - - X - 
+X X - X - X X 
+X X - X - X -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fdf8b4b-a0cd-4044-b225-cb0a6d9b7574" testId="46104fa5-2c46-cc7c-6a2e-bd156e922eb2" testName="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtLeftBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002514" startTime="2012-07-09T16:24:03.3235218+03:00" endTime="2012-07-09T16:24:03.3265220+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fdf8b4b-a0cd-4044-b225-cb0a6d9b7574">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ef2ca92-d04d-4573-9ae4-84a39b5fb6fd" testId="49468e04-4e1f-fa29-efc0-2ae57ca03016" testName="TestCompareTo_CompareWrongObject_ExpectedExcetion" computerName="SVETLIO-PC" duration="00:00:00.0010543" startTime="2012-07-09T16:24:03.3285221+03:00" endTime="2012-07-09T16:24:03.3325224+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ef2ca92-d04d-4573-9ae4-84a39b5fb6fd">
+    </UnitTestResult>
+    <UnitTestResult executionId="a2480eda-e7bc-4fa8-8ea4-7afb9ef685d8" testId="4c9dc7f2-a279-06b2-af66-246e213a7d9e" testName="TestPlay_MoveDownBigLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0005829" startTime="2012-07-09T16:24:03.3345225+03:00" endTime="2012-07-09T16:24:03.3375226+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2480eda-e7bc-4fa8-8ea4-7afb9ef685d8">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X X X - - - 
+- - - - - - X 
+X - - - - X X 
+- - X * - X X 
+X - - - - - - 
+- - - - X - X 
+- - - - - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cd514b0c-ad51-4d56-99e9-2672b07016a4" testId="50512e4a-ed0e-d15e-0591-0c76b418b206" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtTopBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002493" startTime="2012-07-09T16:24:03.3395228+03:00" endTime="2012-07-09T16:24:03.3425229+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd514b0c-ad51-4d56-99e9-2672b07016a4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d5c19d09-4790-48db-9526-4931279ff441" testId="5a2d4e63-b2f8-1e5d-0e55-70225364168d" testName="TestCheckPlayerPositionValidityInLabyrinthMap_InvalidPlayerPositionObject_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0015902" startTime="2012-07-09T16:24:03.3445230+03:00" endTime="2012-07-09T16:24:03.3485233+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5c19d09-4790-48db-9526-4931279ff441">
+    </UnitTestResult>
+    <UnitTestResult executionId="89ad1830-f68c-462f-9996-902d686452e1" testId="5be0be29-c1eb-c1b7-0e66-de3c28db121d" testName="TestGetResourceValue_ReadValidResource_ResourceValueReturned" computerName="SVETLIO-PC" duration="00:00:00.0003297" startTime="2012-07-09T16:24:03.3505234+03:00" endTime="2012-07-09T16:24:03.3535236+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89ad1830-f68c-462f-9996-902d686452e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="f74ce6c0-5acb-4aa1-a787-aadadb14f16c" testId="5c706ee3-0f90-4e95-151d-c3fe84b27731" testName="TestCompareTo_Compare10to9_SecondIsHigher" computerName="SVETLIO-PC" duration="00:00:00.0002609" startTime="2012-07-09T16:24:03.3555237+03:00" endTime="2012-07-09T16:24:03.3585238+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f74ce6c0-5acb-4aa1-a787-aadadb14f16c">
+    </UnitTestResult>
+    <UnitTestResult executionId="125f9ad6-86d6-4d1a-8bd1-6e6f49dfa168" testId="5f1ada45-18a8-d38f-7cb1-bf4f0651b576" testName="TestPrintLabyrinth_CreateGame7x7_DisplayLabyrinthMap" computerName="SVETLIO-PC" duration="00:00:00.0007728" startTime="2012-07-09T16:24:03.3605240+03:00" endTime="2012-07-09T16:24:03.3635241+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="125f9ad6-86d6-4d1a-8bd1-6e6f49dfa168">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X - - - - - 
+X - X - - - X 
+- - - - - X X 
+X - - * - X X 
+- - X - X - - 
+X - - - - X - 
+- X X - X - X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d30e7fc1-ae00-4881-ac5d-fe7d152dc85e" testId="602cdad9-a0a6-ef94-4303-f62a00bdf1df" testName="TestCompareTo_Compare10to9_FirstIsHigher" computerName="SVETLIO-PC" duration="00:00:00.0002587" startTime="2012-07-09T16:24:03.3655242+03:00" endTime="2012-07-09T16:24:03.3685244+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d30e7fc1-ae00-4881-ac5d-fe7d152dc85e">
+    </UnitTestResult>
+    <UnitTestResult executionId="26cea55c-c1ec-4942-9940-18a336a0b9fc" testId="65ee67f2-dd58-4060-142c-c0be749d9b16" testName="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionAtRightBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002450" startTime="2012-07-09T16:24:03.3705245+03:00" endTime="2012-07-09T16:24:03.3735247+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26cea55c-c1ec-4942-9940-18a336a0b9fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="f23f26f7-dc1b-4a12-b25b-88f3b5dc4741" testId="6715a518-e19f-1202-bfcf-9b3ed2c7764c" testName="TestCompareTo_Compare9to10_AreEqual" computerName="SVETLIO-PC" duration="00:00:00.0002523" startTime="2012-07-09T16:24:03.3755248+03:00" endTime="2012-07-09T16:24:03.3775249+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f23f26f7-dc1b-4a12-b25b-88f3b5dc4741">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b1e8133-341c-4459-bbee-08a92c90a576" testId="6aad3772-bac8-73c5-bfcf-1ee6dbdf9735" testName="TestPlay_MoveLeftSmallLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0009161" startTime="2012-07-09T16:24:03.3805251+03:00" endTime="2012-07-09T16:24:03.3845253+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b1e8133-341c-4459-bbee-08a92c90a576">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - - - 
+X - X X X - - 
+X - - - X X X 
+X X - * X - X 
+X - X X - X X 
+- - - - - - X 
+- X - - - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="421c60e4-2095-471e-ad84-c3e073b916f4" testId="6e039a8b-4981-3cf9-2aa0-81d781c42dcc" testName="TestPlay_MoveDownSmallLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0005509" startTime="2012-07-09T16:24:03.3865255+03:00" endTime="2012-07-09T16:24:03.3905257+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="421c60e4-2095-471e-ad84-c3e073b916f4">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - - - 
+X - X X X - - 
+X - - - X X X 
+X X - * X - X 
+X - X X - X X 
+- - - - - - X 
+- X - - - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ddd04169-3644-4b00-af9d-0f30de263636" testId="70f41788-cb88-e265-0243-3d7ee945f00f" testName="TestGetLowestScore_InvalidListPassed_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0019397" startTime="2012-07-09T16:24:03.3925258+03:00" endTime="2012-07-09T16:24:03.3965260+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddd04169-3644-4b00-af9d-0f30de263636">
+    </UnitTestResult>
+    <UnitTestResult executionId="18282885-23a3-43a9-8167-c438e7037e78" testId="713c0b70-0cfd-93d0-3ea7-5f2214f3234c" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionInRange_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0003006" startTime="2012-07-09T16:24:03.3985261+03:00" endTime="2012-07-09T16:24:03.4015263+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18282885-23a3-43a9-8167-c438e7037e78">
+    </UnitTestResult>
+    <UnitTestResult executionId="c8b16bf2-927c-4e83-9610-bb9b856328b3" testId="721ec0ac-a8d8-43f2-8a8a-bbcc23886663" testName="TestIsHightScore_StoredRecordIs2MaxRecords5_5IsNewHighScore" computerName="SVETLIO-PC" duration="00:00:00.0003310" startTime="2012-07-09T16:24:03.4035264+03:00" endTime="2012-07-09T16:24:03.4065266+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8b16bf2-927c-4e83-9610-bb9b856328b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="9a626496-de83-4c90-bca6-e36e611f86c0" testId="7499c3f7-c48f-22d3-cca5-f3e3b40a8316" testName="TestAddScore_Store3Rrecords_RecordsSortedAscending" computerName="SVETLIO-PC" duration="00:00:00.0006766" startTime="2012-07-09T16:24:03.4085267+03:00" endTime="2012-07-09T16:24:03.4115269+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a626496-de83-4c90-bca6-e36e611f86c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="1b04a8f7-88a0-43a9-9855-85deba183be2" testId="76066b81-f82d-1d12-397c-496e6f1d8345" testName="TestIsPlayerPositionAtLabyrintBorder_PlayerPositionNotAtBorder_ReturnsFalse" computerName="SVETLIO-PC" duration="00:00:00.0002532" startTime="2012-07-09T16:24:03.4135270+03:00" endTime="2012-07-09T16:24:03.4165272+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b04a8f7-88a0-43a9-9855-85deba183be2">
+    </UnitTestResult>
+    <UnitTestResult executionId="3d5bc486-70e2-401f-ad20-c27c777fda8f" testId="7b13643f-7b3e-fa2b-b615-a889ea0f11c0" testName="TestInitializeLabyrinthMapInitial_CreateGame7x7_PlayerPositionIsAt3x3" computerName="SVETLIO-PC" duration="00:00:00.0004371" startTime="2012-07-09T16:24:03.4185273+03:00" endTime="2012-07-09T16:24:03.4215275+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3d5bc486-70e2-401f-ad20-c27c777fda8f">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - - - - - 
+- - - X - X - 
+- X - X X X - 
+- - X * - - X 
+- - - X X - X 
+X X - - X - - 
+X - - X X - X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8357138-c2e0-45b3-8588-202f75b046e2" testId="8528c068-c927-8fcd-3fda-5720146fa10e" testName="TestPlay_MoveRightBigLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0005791" startTime="2012-07-09T16:24:03.4235276+03:00" endTime="2012-07-09T16:24:03.4265277+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8357138-c2e0-45b3-8588-202f75b046e2">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - - X X - - 
+- - X - X X X 
+X X X X X - - 
+- X - * X X X 
+X - - - - X - 
+- - - - - - X 
+- X X X - - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b252bdc-198e-4c0a-8b91-f943fde3f996" testId="8e3f5a43-bfe8-046c-4082-39ae6c4c9a1e" testName="TestInitializeLabyrinthMap_PlayerPositionRowInvalid_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0013468" startTime="2012-07-09T16:24:03.4285279+03:00" endTime="2012-07-09T16:24:03.4325281+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b252bdc-198e-4c0a-8b91-f943fde3f996">
+    </UnitTestResult>
+    <UnitTestResult executionId="90eb1873-5a38-4919-bfd5-e472a557ea1e" testId="8f4ee49a-65f2-5f91-2221-6d2060b3ff56" testName="TestPlay_MoveRightToBlockedCell_InvalidMoveMEssagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0006189" startTime="2012-07-09T16:24:03.4355283+03:00" endTime="2012-07-09T16:24:03.4385284+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90eb1873-5a38-4919-bfd5-e472a557ea1e">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - - X X - - 
+- - X - X X X 
+X X X X X - - 
+- X - * X X X 
+X - - - - X - 
+- - - - - - X 
+- X X X - - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65f7fd67-cc53-4743-a439-95e5e6d891ac" testId="90e9871f-9d88-a960-bbfa-8030c3138bc6" testName="TestIsLabyrinthSolvable_LabitynthWithManyExits_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002514" startTime="2012-07-09T16:24:03.4405285+03:00" endTime="2012-07-09T16:24:03.4425287+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65f7fd67-cc53-4743-a439-95e5e6d891ac">
+    </UnitTestResult>
+    <UnitTestResult executionId="cdd44276-9b89-4dbf-a45e-039cd7941e47" testId="913d29b6-05df-d113-ab41-2d9218eac454" testName="TestIsLabyrinthSolvable_LabitynthWithOneExit_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002831" startTime="2012-07-09T16:24:03.4445288+03:00" endTime="2012-07-09T16:24:03.4475289+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cdd44276-9b89-4dbf-a45e-039cd7941e47">
+    </UnitTestResult>
+    <UnitTestResult executionId="a14615d3-aba7-4e91-a92d-88ef2ea8730d" testId="92e921a1-7413-b8fd-1053-474e571c6556" testName="TestScoreRecordConstructor_CreateInvalidRecord_ExpectedExcetion" computerName="SVETLIO-PC" duration="00:00:00.0004773" startTime="2012-07-09T16:24:03.4495291+03:00" endTime="2012-07-09T16:24:03.4535293+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a14615d3-aba7-4e91-a92d-88ef2ea8730d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f092c037-a33f-4c29-8725-74c843344cd9" testId="954a9507-71f0-1157-5fe6-92b68099bc6a" testName="TestPrintScoreboard_EmptyList_EmptyScoreboardPrinted" computerName="SVETLIO-PC" duration="00:00:00.0013515" startTime="2012-07-09T16:24:03.4555294+03:00" endTime="2012-07-09T16:24:03.4595296+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f092c037-a33f-4c29-8725-74c843344cd9">
+    </UnitTestResult>
+    <UnitTestResult executionId="1fe71b0d-1ef1-4c33-9e65-49f9443fcbec" testId="966d9dd0-4f82-7bc2-0df0-7ab39e7e8329" testName="TestPlay_MoveLeftBigLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0005675" startTime="2012-07-09T16:24:03.4625298+03:00" endTime="2012-07-09T16:24:03.4655300+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fe71b0d-1ef1-4c33-9e65-49f9443fcbec">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- - - - X - - 
+X X - - X X X 
+- - X X X - - 
+X - - * X - X 
+- - X - X - - 
+X X - X X - X 
+X - - - X X -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28c333ec-c7bc-4b88-8e7f-f3e5e6b3ea6d" testId="9fa44a34-8ea2-08ba-581a-954033668b64" testName="TestIsHightScore_StoredRecordIs20MaxRecords1_15IsNewHighScore" computerName="SVETLIO-PC" duration="00:00:00.0005166" startTime="2012-07-09T16:24:03.4675301+03:00" endTime="2012-07-09T16:24:03.4715303+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28c333ec-c7bc-4b88-8e7f-f3e5e6b3ea6d">
+    </UnitTestResult>
+    <UnitTestResult executionId="80119ff5-e450-401b-80c7-8f533fbc150a" testId="a9d92305-d679-5d67-6ce0-01309c8ee541" testName="TestCheckPlayerPositionValidityInLabyrinthMap_PlayerPositionOutOfRange_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0016257" startTime="2012-07-09T16:24:03.4745305+03:00" endTime="2012-07-09T16:24:03.4795308+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80119ff5-e450-401b-80c7-8f533fbc150a">
+    </UnitTestResult>
+    <UnitTestResult executionId="adf6da61-4d32-4bf2-86c9-8ee684d51ece" testId="ab9469e7-e138-e0e3-4eaf-6e2e5c2ae4e7" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionOutRange_ReturnsFalse" computerName="SVETLIO-PC" duration="00:00:00.0002587" startTime="2012-07-09T16:24:03.4825309+03:00" endTime="2012-07-09T16:24:03.4865312+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adf6da61-4d32-4bf2-86c9-8ee684d51ece">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5b5af12-cfa4-425a-ae19-af44aea3e8a9" testId="b302e319-930b-d780-f9c5-e92823bcd7b4" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtLeftBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0004499" startTime="2012-07-09T16:24:03.4885313+03:00" endTime="2012-07-09T16:24:03.4915315+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5b5af12-cfa4-425a-ae19-af44aea3e8a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="129a17b6-1afa-44ce-8ae6-c1eb5bc58af3" testId="b7cc83bd-7d8b-0de1-e188-083382990dd7" testName="TestInitializeLabyrinthMap_PlayerPositionColumnOutOfRange_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0014752" startTime="2012-07-09T16:24:03.4945316+03:00" endTime="2012-07-09T16:24:03.4995319+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129a17b6-1afa-44ce-8ae6-c1eb5bc58af3">
+    </UnitTestResult>
+    <UnitTestResult executionId="bca1526a-cb96-4f8b-af07-35bfa818e211" testId="baf3de5e-87bd-fb43-3072-3eb4c32230b2" testName="TestScoreboardConstructor_InvalidCound_ThrowException" computerName="SVETLIO-PC" duration="00:00:00.0005628" startTime="2012-07-09T16:24:03.5015320+03:00" endTime="2012-07-09T16:24:03.5055323+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bca1526a-cb96-4f8b-af07-35bfa818e211">
+    </UnitTestResult>
+    <UnitTestResult executionId="93c3eed6-c5d8-460f-952c-0ce3c3aa00e3" testId="bff97ae2-eee3-ba3f-ec4d-63d8822cb76d" testName="CopyToTest" computerName="SVETLIO-PC" duration="00:00:00.0006753" startTime="2012-07-09T16:24:03.5085324+03:00" endTime="2012-07-09T16:24:03.5125327+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93c3eed6-c5d8-460f-952c-0ce3c3aa00e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8499a1a-0b8c-406e-bede-eaf74f072d7f" testId="c23de7cf-f106-1f98-a5a7-8301c63e027b" testName="TestAddScore_3Record_NumberOfStoredREcordsIs3" computerName="SVETLIO-PC" duration="00:00:00.0004965" startTime="2012-07-09T16:24:03.5145328+03:00" endTime="2012-07-09T16:24:03.5175329+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8499a1a-0b8c-406e-bede-eaf74f072d7f">
+    </UnitTestResult>
+    <UnitTestResult executionId="fe82c5f5-5087-4357-b8d9-e95cdaf45843" testId="c97585c0-8f71-f85d-3b53-0549e1f574eb" testName="TestMain_StartNewGame_WelcomeMessagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0251332" startTime="2012-07-09T16:24:03.5205331+03:00" endTime="2012-07-09T16:24:03.5495348+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe82c5f5-5087-4357-b8d9-e95cdaf45843">
+    </UnitTestResult>
+    <UnitTestResult executionId="04e72bf0-9ad9-4159-af5f-668bd148139b" testId="c9b26c2e-297c-e8a8-a0e5-1696f280362f" testName="TestAddScore_1Record_NumberOfStoredREcordsIs1" computerName="SVETLIO-PC" duration="00:00:00.0003960" startTime="2012-07-09T16:24:03.5525349+03:00" endTime="2012-07-09T16:24:03.5565352+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="04e72bf0-9ad9-4159-af5f-668bd148139b">
+    </UnitTestResult>
+    <UnitTestResult executionId="756b1178-672a-4820-92a4-3dfbf84ae9d0" testId="cae6fde2-188b-3999-9c92-fb92695dfff5" testName="TestPlay_MoveUpBigLetter_PayerPositionMoved" computerName="SVETLIO-PC" duration="00:00:00.0006959" startTime="2012-07-09T16:24:03.5585353+03:00" endTime="2012-07-09T16:24:03.5635356+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="756b1178-672a-4820-92a4-3dfbf84ae9d0">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X X X - X - 
+- X - X - X X 
+- X - - - X X 
+X - - * - - - 
+- X - X - X X 
+X X X X - - X 
+X - X X X - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc1fec3a-1416-4132-a4a7-35a9a64b42de" testId="d1808c95-76b5-27c8-3321-e375fedeaaa9" testName="TestPlay_SolveTheGameFiveMoves_ScoreRecordedScoreboeadPrinted" computerName="SVETLIO-PC" duration="00:00:00.0112640" startTime="2012-07-09T16:24:03.5665357+03:00" endTime="2012-07-09T16:24:03.5805365+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc1fec3a-1416-4132-a4a7-35a9a64b42de">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X X - - - X - 
+X - - - - X X 
+X - - - - X X 
+- - X * - X - 
+X X X - X X X 
+- - X X X - - 
+- X - - - X -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f28549b1-a6c7-4e46-a88f-e833af5adfa3" testId="d2c408e5-b397-bc11-f07c-053ca0d03e3a" testName="TestCompareTo_CompareNullObject_ExpectedExcetion" computerName="SVETLIO-PC" duration="00:00:00.0006364" startTime="2012-07-09T16:24:03.5835367+03:00" endTime="2012-07-09T16:24:03.5875369+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f28549b1-a6c7-4e46-a88f-e833af5adfa3">
+    </UnitTestResult>
+    <UnitTestResult executionId="b1e1ecff-486b-4488-a051-2857ff99141a" testId="d95cc6e9-2b09-0d04-e7ba-8c61df679392" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtBottomBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0002583" startTime="2012-07-09T16:24:03.5905371+03:00" endTime="2012-07-09T16:24:03.5945373+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1e1ecff-486b-4488-a051-2857ff99141a">
+    </UnitTestResult>
+    <UnitTestResult executionId="5eb2abed-a947-422a-a687-32a80c2fb46e" testId="dace1836-b1d4-fe0f-9298-ebe2c84c7f98" testName="TestPlay_EnterShowScoreboadCommand_MessageScoreBoardIsEmpty" computerName="SVETLIO-PC" duration="00:00:00.0097862" startTime="2012-07-09T16:24:03.5975375+03:00" endTime="2012-07-09T16:24:03.6105383+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eb2abed-a947-422a-a687-32a80c2fb46e">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - X - 
+- - X - X - X 
+- - - - - X - 
+- X X * - X X 
+- X - - - - X 
+X - X - - X X 
+- - - X X - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67b8e354-abb8-4693-b33a-34334802177e" testId="db909cf8-1248-5bd3-9f5e-220316039a9a" testName="TestAddScore_StoreRecords10and5and15_LowestRecordIs15" computerName="SVETLIO-PC" duration="00:00:00.0005461" startTime="2012-07-09T16:24:03.6135384+03:00" endTime="2012-07-09T16:24:03.6175387+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67b8e354-abb8-4693-b33a-34334802177e">
+    </UnitTestResult>
+    <UnitTestResult executionId="76702906-bd91-405e-9fe8-880a016d9ccc" testId="ddf84eeb-6e95-7732-7ac8-25baf1256761" testName="TestPlay_SolveTheGameOneMove_ScoreRecordedScoreboeadPrinted" computerName="SVETLIO-PC" duration="00:00:00.0007570" startTime="2012-07-09T16:24:03.6205388+03:00" endTime="2012-07-09T16:24:03.6255391+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76702906-bd91-405e-9fe8-880a016d9ccc">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+X - - X - X - 
+- - X - X * X 
+- - - - - X - 
+- X X X - X X 
+- X - - - - X 
+X - X - - X X 
+- - - X X - -</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f3a403c3-4898-4d68-9537-e832acfb9c4b" testId="e0db3463-627c-8ea7-e859-145dd1cf9ba0" testName="TestPrintScoreboard_Store1Record_1LinePrinted" computerName="SVETLIO-PC" duration="00:00:00.0004298" startTime="2012-07-09T16:24:03.6275392+03:00" endTime="2012-07-09T16:24:03.6315395+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3a403c3-4898-4d68-9537-e832acfb9c4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="a2d2421c-6eac-4299-8d17-979524b2c430" testId="e6ac9817-db14-9457-ce43-eb9adaf9a694" testName="TestPlay_MoveLeftToBlockedCell_InvalidMoveMEssagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0006826" startTime="2012-07-09T16:24:03.6345396+03:00" endTime="2012-07-09T16:24:03.6385399+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2d2421c-6eac-4299-8d17-979524b2c430">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X - - - X - 
+- - X - - - - 
+X - - - - X - 
+X - - * - - X 
+X X - X X X - 
+- - X X - - - 
+- X X X - X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2df26cf8-2bd1-4ec4-9085-7293dca3bf2d" testId="eb63cee3-8d56-4837-8866-0932734f8d54" testName="TestIsPlayerPositionInLabyrinthRange_PlayerPositionAtRightBorder_ReturnsTrue" computerName="SVETLIO-PC" duration="00:00:00.0003408" startTime="2012-07-09T16:24:03.6415400+03:00" endTime="2012-07-09T16:24:03.6455403+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2df26cf8-2bd1-4ec4-9085-7293dca3bf2d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3cde1b6-e124-44cd-9729-ccf8bd9e3540" testId="eccffd02-9604-343d-9995-6c981b22e840" testName="TestGetResourceValue_ReadValidResource_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0008336" startTime="2012-07-09T16:24:03.6485404+03:00" endTime="2012-07-09T16:24:03.6525407+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3cde1b6-e124-44cd-9729-ccf8bd9e3540">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6118364-206e-402b-bf3c-4e7c7f9c02fe" testId="ed5d8d77-c5e9-1de2-8093-76d5b9840371" testName="TestInitializeLabyrinthMap_CreateGame0x7_ArgumnetExceptionThrown" computerName="SVETLIO-PC" duration="00:00:00.0017938" startTime="2012-07-09T16:24:03.6545408+03:00" endTime="2012-07-09T16:24:03.6595411+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6118364-206e-402b-bf3c-4e7c7f9c02fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="21630487-4dae-49f3-a36b-fafed8054172" testId="f1ec6272-3070-b419-512b-a1e4a8fe4e2d" testName="TestPlay_EnterInvalidCommand_InvalidMoveMessagePrinted" computerName="SVETLIO-PC" duration="00:00:00.0005663" startTime="2012-07-09T16:24:03.6615412+03:00" endTime="2012-07-09T16:24:03.6655414+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="21630487-4dae-49f3-a36b-fafed8054172">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X X X - X - 
+X - - X - - - 
+- X - X - X - 
+X - - * - X X 
+- X - X - X - 
+X - X - X X X 
+X - - X X X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="77703bdb-bcf3-4c07-89ee-72f7b928f405" testId="f8fa6a08-ce3d-ce5f-703b-e05dd9cc971a" testName="TestInitializeLabyrinthMapInitial_CreateGame7x7_LabyrinthIsSolvable" computerName="SVETLIO-PC" duration="00:00:00.0009255" startTime="2012-07-09T16:24:03.6675415+03:00" endTime="2012-07-09T16:24:03.6715418+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77703bdb-bcf3-4c07-89ee-72f7b928f405">
+      <Output>
+        <StdOut>Welcome to “Labirinth” game. Please try to escape. Use 'top' to view the top scoreboard, 'restart' to start a new game and 'exit' to quit the game.
+- X X X - X - 
+X - - X - - - 
+- X - X - X - 
+X - - * - X X 
+- X - X - X - 
+X - X - X X X 
+X - - X X X X</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96e01da7-95e6-44ac-be29-376c7b4a1c14" testId="fead4f5b-fc2a-7f9e-fcf8-dbb28f04f839" testName="TestCheckLabyrinthMapValidity_InvalidLabyrinthMapSize_ThrownException" computerName="SVETLIO-PC" duration="00:00:00.0017014" startTime="2012-07-09T16:24:03.6745419+03:00" endTime="2012-07-09T16:24:03.6805423+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96e01da7-95e6-44ac-be29-376c7b4a1c14">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ec5d9b9-9f12-40c4-a8c5-d5055439a208" testId="ff5c0ab6-c317-decd-6cbf-441a801dab6f" testName="TestScoreboardConstructor_SetMaximumRecords5_ScoreRecordsCountIs5" computerName="SVETLIO-PC" duration="00:00:00.0005491" startTime="2012-07-09T16:24:03.6815423+03:00" endTime="2012-07-09T16:24:03.6885427+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ec5d9b9-9f12-40c4-a8c5-d5055439a208">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,10 @@
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\bin\Release\Resources\GameResources.resx
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\bin\Release\Resources\GameResources.Designer.cs
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\bin\Release\LabyrinthGame.exe
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\bin\Release\LabyrinthGame.pdb
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\LabyrinthGame.Resources.GameResources.resources
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\GenerateResource.read.1.tlog
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\GenerateResource.write.1.tlog
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\LabyrinthGame.exe
+D:\Work\Courses\HQ Code\Homework\07 - Final Project - Labyrinth\Project\Labyrinth - Refactored\Labyrinth\obj\x86\Release\LabyrinthGame.pdb
