@@ -9,7 +9,7 @@ This is the final project for the "High Quality Code" course part of the Telerik
 Project
 -------
 
-Given a not well done code refactor it according to the HQ Code rules and write unit tests testing the full functionality.
+Given not well done code refactor it according to the HQ Code rules and write unit tests testing the full functionality.
 
 Author
 ------
